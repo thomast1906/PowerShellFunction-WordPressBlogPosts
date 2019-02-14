@@ -8,7 +8,7 @@ Run this function easily by:
 Get-Blogs -BlogSiteName "thomasthornton.cloud"
 ```
 Output:
-
+![alt text](https://github.com/thomast1906/PowerShellFunction-WordPressBlogPosts/blob/master/Images/Output-Example.jpg)
 
 If you require further Output data from the used api, you can run 
 ```powershell
