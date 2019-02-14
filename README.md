@@ -1,2 +1,19 @@
-# PowerShellFunction-WordPressBlogPosts
-PowerShell Function To Display WordPress.com Blog Post Data From The API
+# PowerShell Function - WordPress.com retrieve blog data using API
+
+A quick PowerShell Function to retrieve blog post data from my blog sitd - added to Github as may be useful for others!
+
+Run this function easily by:
+
+```powershell
+Get-Blogs -BlogSiteName "thomasthornton.cloud"
+```
+Output:
+
+
+If you require further Output data from the used api, you can run 
+```powershell
+$WPBlogRetrieve = Invoke-RestMethod -uri "https://public-api.wordpress.com/rest/v1/sites/$BlogSiteName/posts/?number=100"
+$WPBlogRetrieve.posts
+```
+
+[Further info on WordPress.com API](https://developer.wordpress.com/docs/api/)
