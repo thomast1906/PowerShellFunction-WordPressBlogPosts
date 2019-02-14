@@ -1,6 +1,6 @@
 # PowerShell Function - WordPress.com retrieve blog data using API
 
-A quick PowerShell Function to retrieve blog post data from my blog sitd - added to Github as may be useful for others!
+A quick PowerShell Function to retrieve blog post data from my blog site - added to Github as may be useful for others!
 
 Run this function easily by:
 
